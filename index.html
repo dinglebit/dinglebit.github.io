@@ -1,0 +1,114 @@
+<!doctype html>
+<!--
+     Copyright (C) 2016 Dinglebit Developers
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+   -->
+
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+	<title>Dinglebit</title>
+	<meta name="description" content="Dinglebit on Github">
+	<meta name="author" content="Dinglebit Developers">
+
+	<!-- favicons -->
+	<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/images/favicon-194x194.png" sizes="194x194">
+	<link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/images/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="manifest.json">
+
+	<!-- Microsoft -->
+	<meta name="msapplication-TileColor" content="#ffc40d">
+	<meta name="msapplication-TileImage" content="/images/mstile-144x144.png">
+
+	<!-- Android -->
+	<meta name="theme-color" content="#ffffff">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="Dinglebit">
+	<link rel="icon" sizes="192x192" href="/images/android-chrome-192x192.png">
+
+	<!-- iOS -->
+	<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#795548">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Dinglebit">
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png">
+	
+	<!--[if lt IE 9]>
+	    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Our app's style -->
+	<link rel="stylesheet" href="styles/main.css">
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet"
+	      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+	      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+	      crossorigin="anonymous">
+    </head>
+    <body>
+	<svg id="logo" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	    <path
+		class="dinglebit-logo-pants"
+		d="M0 0 h 1000 v 1000 h -350 v -600 h -300 v 600 h -350 Z" />
+	    <rect
+		class="dinglebit-logo-dingleberry"
+		x="250" y="250" width="300" height="300" />
+	</svg>
+
+	<!-- Modal for clicking sufficiently -->
+	<div class="modal fade" id="modal-thanks" tabindex="-1" role="dialog" aria-labelledby="modal-thanks-title">
+	    <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		    <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title" id="modal-thanks-title">Thanks!</h4>
+		    </div>
+		    <div class="modal-body">
+			That's been there for a while! Thanks for your
+			help! If you'd like to see what we are up to,
+			check out our <a href="https://github.com/dinglebit">projects</a>. If
+			you'd like to help out, we always welcome pull
+			requests.
+		    </div>
+		</div>
+	    </div>
+	</div>
+
+	<!-- jQuery and Bootstrap -->
+	<script type="text/javascript"
+		src="https://code.jquery.com/jquery-2.2.3.min.js"
+		integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+		crossorigin="anonymous"></script>
+	<script type="text/javascript"
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+		integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+		crossorigin="anonymous"></script>
+	
+	<!-- Our app -->
+	<script type="text/javascript" src="scripts/app.js"></script>
+    </body>
+</html>
